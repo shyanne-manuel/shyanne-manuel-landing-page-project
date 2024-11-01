@@ -1,3 +1,21 @@
 body {
-    background-color: #DECCA6;
+    background-color: #DCD2B4;
+    color: #583827;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+.title-page h1 {
+    position: absolute;
+    font-family: "Windsong", cursive;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.title-page p {
+    position: absolute;
 }
