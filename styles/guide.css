@@ -20,32 +20,7 @@
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
-body {
-    background-color: #DCD2B4;
-    color: #583827;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-}
 
-h1,
-h2,
-h3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-p {
-    margin: 0 0 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.site-wrapper {
-    max-width: 120rem;
-    margin: 0 auto;
-}
 /* Typography
 --------------------------------------------- */
 
@@ -70,47 +45,12 @@ p {
 --------------------------------------------- */
 
 /* START -- STYLES FOR MOBILE MENU */
-
+/* we will cover this more later */
 /* END -- STYLES FOR MOBILE MENU */
 
 
 /* Main
 --------------------------------------------- */
-
-.site-header{
-    
-    background-color: #583827;
- 
-}
-
-.site-header a {
-    text-decoration: none;
-    color: #DCD2B4;
-    padding: .5rem;
-}
-
-.logo-icon {
-    font-family: "Windsong", cursive;
-    font-size: 4rem;
-    font-weight: 300;
-}
-
-.navigation-bar {
-    display: flex;
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-
-
-
-.title-page h1 {
- 
-    font-family: "Windsong", cursive;
-    font-weight: 600;
-    font-size: 4rem;
-}
 
 
 /* Sidebar
@@ -119,8 +59,3 @@ p {
 
 /* Footer
 --------------------------------------------- */
-
-
-
-
-
