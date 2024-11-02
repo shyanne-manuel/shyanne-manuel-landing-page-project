@@ -20,6 +20,10 @@
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DCD2B4;
     color: #583827;
@@ -89,6 +93,9 @@ p {
 .site-header{
     display: flex;
     background-color: #583827;
+    margin: auto;
+
+
  
 }
 .site-wrapper .site-header {
@@ -120,6 +127,11 @@ p {
     font-family: "Windsong", cursive;
     font-size: 4rem;
     font-weight: 300;
+    padding: .5rem 3rem;
+}
+
+.navigation-bar ul {
+    padding: .5rem 2.5rem;
 }
 
 .navigation-bar li {
@@ -135,13 +147,14 @@ p {
     .site-wrapper .site-header {
         flex-direction: row;
         justify-content: space-between;
-        position: sticky;
-        top: 0;
+        
+        
         
     }
 
     .logo-icon {
-        font-size: 4.5rem;
+        font-size: 5rem;
+        font-weight: 500;
         
     }
 
@@ -198,6 +211,8 @@ p {
         max-width: 75em;
     }
 
+
+
 }
 
 /* About Me Section------------ */
@@ -248,12 +263,31 @@ p {
     padding: .5rem;
 }
 
+.project-site a {
+    text-decoration: none;
+    color: #DCD2B4;
+    background-color: #293949;
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .625rem;
+    text-align: center;
+}
+
+.project-site a:hover {
+    background-color: #583827;
+}
+
 .project-site:hover {
     padding: .25rem;
 }
 .project-site:active {
     padding: 0;
 }
+
+.project-name {
+    text-align: center;
+}
+
 
 @media (min-width: 50em){
     .site-group {
