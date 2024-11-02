@@ -189,8 +189,31 @@ p {
         max-width: 75em;
     }
 
+}
+
+/* About Me Section------------ */
+
+.about-me {
+    max-width: 50rem;
+	margin: 1rem;
+    box-sizing: border-box;
+    background-color: #293949;
+    color: #DCD2B4;
+    padding: .25rem;
+    border-radius: .9375rem;
+    box-shadow: 10px 5px 5px #583827;
 
 }
+
+@media (min-width: 50em){
+    .about-me {
+        margin: 1rem auto;
+    }
+}
+
+
+/* Projects------------- */
+
 
 
 /* Sidebar
