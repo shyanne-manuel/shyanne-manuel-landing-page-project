@@ -239,11 +239,26 @@ p {
     max-width: 18.75rem;
     margin: 2rem auto;
     box-shadow: 0px 0px 3px 2px #583827;
+    transition: padding 0.2s ease;
 }
 
 .project-site p {
     padding: .5rem;
+}
 
+.project-site:hover {
+    padding: .25rem;
+}
+.project-site:active {
+    padding: 0;
+}
+
+@media (min-width: 50em){
+    .site-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
