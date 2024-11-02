@@ -84,11 +84,6 @@ p {
 
 /* START -- STYLES FOR MOBILE MENU */
 
-.site-wrapper {
-    margin: 0 auto;
-    max-width: 120em;
-
-}
 
 .site-header{
     display: flex;
@@ -144,6 +139,7 @@ p {
 
 @media (min-width: 50em){
     .site-wrapper .site-header {
+        
         flex-direction: row;
         justify-content: space-between;
         
