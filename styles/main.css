@@ -68,15 +68,9 @@ p {
 
 /* Header
 --------------------------------------------- */
+/* Site Navigation*/
 
 /* START -- STYLES FOR MOBILE MENU */
-
-/* END -- STYLES FOR MOBILE MENU */
-
-
-/* Main
---------------------------------------------- */
-
 .site-header{
     
     background-color: #583827;
@@ -92,14 +86,9 @@ p {
 .site-header a {
     text-decoration: none;
     color: #DCD2B4;
-    margin-top: 0;
+    margin: 0;
 }
 
-.logo-icon {
-    font-family: "Windsong", cursive;
-    font-size: 4rem;
-    font-weight: 300;
-}
 
 .navigation-bar{
     display: flex;
@@ -111,12 +100,48 @@ p {
     justify-content: space-between;
 }
 
+.logo-icon {
+    font-family: "Windsong", cursive;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
 .navigation-bar li {
     padding-left: .5rem;
     padding-right: .5rem;
 }
 
+/* END -- STYLES FOR MOBILE MENU */
 
+/* Web styles for header --------------------------------*/
+
+@media (min-width: 50em){
+    .site-wrapper .site-header {
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        
+    }
+
+    .logo-icon {
+        font-size: 4.5rem;
+        
+    }
+
+    .navigation-bar {
+        margin: auto;
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+
+}
+
+
+
+
+/* Main
+--------------------------------------------- */
 
 
 .title-page h1 {
@@ -124,6 +149,10 @@ p {
     font-family: "Windsong", cursive;
     font-weight: 600;
     font-size: 4rem;
+}
+
+.title-page p {
+    
 }
 
 
