@@ -113,6 +113,7 @@ p {
     font-size: 1.2rem;
     font-weight: 500;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .logo-icon {
@@ -240,6 +241,7 @@ p {
     margin: 2rem auto;
     box-shadow: 0px 0px 3px 2px #583827;
     transition: padding 0.2s ease;
+    
 }
 
 .project-site p {
@@ -262,20 +264,53 @@ p {
 }
 
 
-/* Contact Section */
+/* Contact Section ------------------*/
 
+.contact {
+    margin: 2rem auto;
+}
 
+.contact a {
+    text-decoration: none;
+    color: #583827;
+}
 
+.contact h3 {
+    text-align: center;
+}
 
+.contact ul {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+}
 
+.contact-link:hover {
+    font-size: 1.2rem;
+}
 
-/* Sidebar
---------------------------------------------- */
 
 
 /* Footer
 --------------------------------------------- */
+footer {
+    background-color: #583827;
+    color: #DCD2B4;
+    padding: 2rem auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
 
+footer p {
+    padding-top: 1rem;;
+}
 
 
 
