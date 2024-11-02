@@ -71,8 +71,15 @@ p {
 /* Site Navigation*/
 
 /* START -- STYLES FOR MOBILE MENU */
+
+.site-wrapper {
+    margin: 0 auto;
+    max-width: 120em;
+
+}
+
 .site-header{
-    
+    display: flex;
     background-color: #583827;
  
 }
@@ -143,16 +150,46 @@ p {
 /* Main
 --------------------------------------------- */
 
+.title-page {
+  margin: 1rem auto 2rem ;
+ 
+}
+
+.title-page .name {
+    box-sizing: border-box;
+}
+
 
 .title-page h1 {
  
     font-family: "Windsong", cursive;
     font-weight: 600;
     font-size: 4rem;
+    margin:.5rem auto;
+    text-align: center;
+    
 }
 
 .title-page p {
-    
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0 auto;
+    text-align: center;
+}
+
+.title-page img {
+    align-self: center;
+}
+
+@media (min-width: 50em){
+    .title-page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 75em;
+    }
+
+
 }
 
 
