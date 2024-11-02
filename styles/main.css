@@ -82,11 +82,17 @@ p {
     background-color: #583827;
  
 }
+.site-wrapper .site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: .5rem;
+}
 
 .site-header a {
     text-decoration: none;
     color: #DCD2B4;
-    padding: .5rem;
+    margin-top: 0;
 }
 
 .logo-icon {
@@ -95,11 +101,19 @@ p {
     font-weight: 300;
 }
 
-.navigation-bar {
+.navigation-bar{
     display: flex;
     margin: 0;
+    padding-left: 0;
+    padding-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
+    justify-content: space-between;
+}
+
+.navigation-bar li {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 
